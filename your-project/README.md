@@ -1,43 +1,51 @@
 <img src="https://bit.ly/2VnXWr2" alt="Ironhack Logo" width="100"/>
 
 # Title of My Project
-*[Your Name]*
+*[Pau Sancho & Toni Espadas]*
 
-*[Your Cohort, Campus & Date]*
+*[Data Analytics, Barcelona Ironhack, 30/10/2020]*
 
 ## Content
-- [Project Description](#project-description)
-- [Questions & Hypotheses](#questions-hypotheses)
-- [Dataset](#dataset)
-- [Database](#database)
-- [Workflow](#workflow)
-- [Organization](#organization)
-- [Links](#links)
+- [Project Description]
+- [Questions & Hypotheses]
+- [Dataset]
+- [Database]
+- [Workflow]
+- [Organization]
+- [Links]
 
 
 ## Project Description
-Write a short introduction to your project: 3-5 sentences about the context of your topic and why you chose it.
+Pau and Toni are a team of data analyst that works for the Catalonian Health Department Goverment and we've recently been assigned the task of finding the Barcelona neighborhood that is more likely to have a Covid-19 outbreak.
+From the information that he received from department we knows that main goals:
+- People ages between 20 and 32 are the ones that spread out the virus the most.
+- People with ages starting at 60 and above are the ones with a higher risk of dying if they get infected.
+- Areas with a higher population density are more likely to have an outbreak. 
+
 
 ## Questions & Hypotheses
-What are the questions you would like to answer with your analysis? What did you feel were the answers to those questions before answering them with data?
+With this information, Pedro decides that the best way to decide where the massive testing should start is by finding out which neighborhood has:
+
+- More people the ages between 20 and 32.
+- More people age 60 or above.
+- Neighborhood with the highest density of population.
 
 ## Dataset
-What dataset (or datasets) did you use? What is the source of your data? Provide links to the data if available and describe the data briefly.
+Mainly, we use 'OPEN DATA' set Barcelona official page web. You'd find the url where is provided the data relatted to the goals inside the codes, datasets folder or just click around clicking here : https://opendata-ajuntament.barcelona.cat/data/ca/organization/poblacio
 
 ## Database
-What is the structure of your database? Have you created more than one table and if yes, how are they related to each other? Include a drawing or computer-generated image of the ERD (Entity Relationship Diagram) of your database.
+We use Pandas and Numpy for working with Dataframe. We strive into 3 charts according with the setting goals we explained before. Further information, explore the data set inside the py-codes. 
 
 ## Workflow
-Outline the workflow you used in your project. What are the steps you went through?
+We make a strcture path to work as united. First of all, researching data, collect them and strive what will be usefull for the approach analysis. We destirbute the coding task by goals and go straightforward. Once done, revise each part of code and make the presentation. Finally, we uploaded everyfile into GitHub in the same repository.
 
 ## Organization
-How did you organize your work? Did you use any tools like a kanban board?
+Out team is organized by Trello tool. Kanban board was the template as main scenario. Dived by 3 stages: tasks to-do, doing and Done. 
 
-What does your repository look like? Explain your folder and file structure.
+You could navegate through repository en find tha datasets and the project files codes. The  
+What does your repository look like? Explain your folder and file structure. Your-project files you'll' find the density for 'density_ages_youngest+density_inmigrants'(inmigrants informatios won't be a relevant data for this context) and the 'density_old' file remains the older group and density from Barcelona.
 
 ## Links
-Include links to your repository, slides and kanban board. Feel free to include any other links associated with your project.
-
-[Repository](https://github.com/)  
+[Repository](https://github.com/pausancho/Project-Week-2-Barcelona)  
 [Slides](https://slides.com/)  
-[Trello](https://trello.com/en)  
+[Trello](https://trello.com/b/nONKjpMX)  
